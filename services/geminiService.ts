@@ -37,6 +37,6 @@ export const generateNudgeMessage = async (
     return response.text || "Não foi possível gerar a mensagem. Tente novamente.";
   } catch (error) {
     console.error("Error generating nudge:", error);
-    return "Erro ao conectar com a IA. Verifique sua chave de API.";
+    return "Erro ao conectar com a IA.";
   }
 };
